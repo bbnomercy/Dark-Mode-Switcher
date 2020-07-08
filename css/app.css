@@ -60,7 +60,7 @@ a:active {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #303C55 url(../images/moon.svg) no-repeat right;
+	background: #303C55 url(../images/sun.svg) no-repeat left;
 	background-position: 90% 50%;
 	-webkit-transition: .4s;
 	transition: .4s;
@@ -79,7 +79,7 @@ a:active {
 }
 
 input:checked + .slider {
-	background: #ffa500 url(../images/sun.svg) no-repeat left;
+	background: #ffa500 url(../images/moon.svg) no-repeat right;
 	background-position: 10% 50%;
 }
 
@@ -110,16 +110,6 @@ input:checked + .slider:before {
 	position: absolute;
 	top: 20px;
 	right: 30px;
-}
-.moon {
-	background: url(../images/moon.svg) no-repeat center;
-	background-size: 100%;
-	width: 17px;
-}
-.sun {
-	background: url(../images/sun.svg);
-	background-size: 100%;
-	width: 17px;
 }
 
 .social {
